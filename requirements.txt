@@ -11,5 +11,5 @@ tavily-python
 wikipedia
 trustcall
 python-dotenv
-pypdf
+mistralai
 langgraph-cli[inmem]
