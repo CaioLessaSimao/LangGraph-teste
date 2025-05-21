@@ -1,0 +1,11 @@
+services:
+  pdf-ocr-api:
+    build: .
+    container_name: pdf_ocr_container
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    restart: unless-stopped
